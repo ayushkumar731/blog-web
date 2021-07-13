@@ -1,0 +1,80 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "project": "."
+      },
+      "node": {
+        "paths": ["pages"]
+      }
+    }
+  },
+  "extends": ["plugin:react/recommended", "airbnb"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "max-len": ["error", { "code": 120 }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "camelcase": [
+      2,
+      {
+        "ignoreDestructuring": true,
+        "properties": "never",
+        "allow": ["^UNSAFE_"]
+      }
+    ],
+    "import/no-duplicates": 2,
+    "import/newline-after-import": 0,
+    "import/no-dynamic-require": 0,
+    "no-underscore-dangle": ["error", { "allow": ["__t", "_id"] }],
+    "no-console": "error",
+    "no-shadow": "off",
+    "no-use-before-define": 0,
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "prefer-destructuring": [
+      "error",
+      {
+        "VariableDeclarator": {
+          "array": true,
+          "object": true
+        },
+        "AssignmentExpression": {
+          "array": false,
+          "object": false
+        }
+      },
+      {
+        "enforceForRenamedProperties": false
+      }
+    ],
+    "react/forbid-prop-types": 0,
+    "react/jsx-closing-tag-location": 0,
+    "react/jsx-no-target-blank": 0,
+    "react/jsx-max-props-per-line": 0,
+    "react/jsx-props-no-spreading": ["error", { "custom": "ignore" }],
+    "react/require-extension": 0,
+    "react/self-closing-comp": 0,
+    "react/prefer-stateless-function": 0,
+    "react/require-default-props": 0,
+    "react/no-danger": 0,
+    "require-yield": 0,
+    "react/jsx-wrap-multilines": 0,
+    "react/react-in-jsx-scope": "off"
+  },
+  "globals": {
+    "document": true,
+    "window": true
+  }
+}

@@ -1,0 +1,18 @@
+# IDE
+.vscode
+.idea
+.editorconfig
+
+# Dependency directories
+node_modules/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Optional eslint cache
+.eslintcache
+
+dump.rdb

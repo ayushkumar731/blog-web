@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+      xmlns:xhtml="http://www.w3.org/1999/xhtml">
+      
+	<url>
+		<loc>http://localhost:3000/about</loc>
+		<lastmod>2021-06-13</lastmod>
+	</url> 
+
+	<url>
+		<loc>http://localhost:3000/contact</loc>
+		<lastmod>2021-06-13</lastmod>
+	</url>
+
+	<url>
+		<loc>http://localhost:3000</loc>
+		<lastmod>2021-06-13</lastmod>
+	</url>
+  
+  <url>
+		<loc>http://localhost:3000/blog/github-command-for-beginners</loc>
+		<lastmod>2021-06-27</lastmod>
+	</url>
+</urlset>

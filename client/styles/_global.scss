@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+pre {
+  overflow: auto;
+  background-color: black;
+  padding: 1.5rem;
+  border-radius: 8px;
+  color: white;
+}
+
+p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  pre {
+    padding: 1rem;
+  }
+}
