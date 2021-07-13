@@ -9,7 +9,7 @@ clone the project and go to `cd blog-web`
 
 ### Frontend:- 
 1. Go to `cd client` and do `npm install`
-2. For start in development:- `npm run start`
+2. For start in development:- `npm run dev`
 3. App will run on `localhost:3000`
 4. For start in production:- `npm run build` then `npm run start`
 
