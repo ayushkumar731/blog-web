@@ -24,6 +24,6 @@ clone the project and go to `cd blog-web`
 To write a blog:-
 1. Create a new user by postman and change the role into `ADMIN`
 2. now go to broser and go to `localhost:3000/admin` Authenticate and write blog.
-3. you will get the notofication and blog will be appear on home page.
+3. you will get the notification after click on save button and blog will be appear on home page.
 
 
